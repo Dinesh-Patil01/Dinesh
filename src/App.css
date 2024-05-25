@@ -149,13 +149,13 @@ body {
 }
 
 .hero-overall h1 {
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 25px;
 }
 
-.hero-overall h1 img {
-  max-width: 60px;
-  margin-left: 30px;
+.hero-overall p img {
+  max-width: 40px;
+  margin-right: 10px;
 }
 
 .hero-overall p {

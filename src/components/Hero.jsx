@@ -9,13 +9,14 @@ const Hero = () => {
           <div className="hero-overall">
             <div className="hero-text">
               <h1>
-                Full Stack  <br /> Developer{" "}
-                <span>
-                  <img src="assets/wave hand.png" />
-                </span>
+                Full Stack Developer
               </h1>
               <p>
-               Hi, I am Dinesh Patil. Passionate Aspiring Full Stack Developer.
+               Hi,<span>
+                  <img src="assets/wave hand.png" />
+                </span>
+                <br />
+                I am Dinesh Patil. Passionate Aspiring Full Stack Developer.
                <br/>
                Feel Free to connect with me.
               </p>
