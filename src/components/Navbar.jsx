@@ -18,6 +18,10 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const fileID = '10Q7Qi60hw5-z9EIu3mGGiDpNo51qa1o9';
+  const viewLink = `https://drive.google.com/file/d/${fileID}/view?usp=sharing`;
+  const downloadLink = `https://drive.google.com/uc?export=download&id=${fileID}`;
+
   return (
     <>
       <nav>
@@ -42,6 +46,13 @@ const Navbar = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <li>
+              <a href={viewLink} target="_blank" rel="noopener noreferrer"> Resume</a>
+            </li>
+            <li>
+              <a href={downloadLink} download="Resume.pdf"><i class="fa-solid fa-download"></i></a>
+            </li>
+
           </ul>
 
           <div className="mobile-hamb" onClick={openNav}>
@@ -74,6 +85,9 @@ const Navbar = () => {
               <a onClick={openNav} href="#contact">
                 Contact
               </a>
+            </li>
+            <li>
+              <a onClick={openNav} href={viewLink} target="_blank" rel="noopener noreferrer"> Resume</a>
             </li>
           </ul>
         </div>
